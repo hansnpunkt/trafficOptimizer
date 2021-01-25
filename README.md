@@ -26,9 +26,6 @@ SUMO makes it easy to scale the traffic. Here are the results of different speed
 ## Scale 0.25: ##
 ![Screenshot](imgs/scale_0.25.png)  
 
-## Scale 0.5: ##
-![Screenshot](imgs/scale_0.5.png)  
-
 ## Scale 1.0: ##
 ![Screenshot](imgs/scale_1.png)  
 
