@@ -23,14 +23,14 @@ To test out the effect of different speed limits on network throughput (e.g. wil
 
 SUMO makes it easy to scale the traffic. Here are the results of different speed limits for different scales of traffic:
 Scale 0.25:
-![Screenshot](imgs/scale_0.25.png)
+![Screenshot](imgs/scale_0.25.png)  
 Scale 0.5:
-![Screenshot](imgs/scale_0.5.png)
+![Screenshot](imgs/scale_0.5.png)  
 Scale 1.0:
-![Screenshot](imgs/scale_1.png)
+![Screenshot](imgs/scale_1.png)  
 Scale 1.5:
-![Screenshot](imgs/scale_1.5.png)
+![Screenshot](imgs/scale_1.5.png)  
 Scale 3.0:
-![Screenshot](imgs/scale_3.0.png)
+![Screenshot](imgs/scale_3.png)  
 
 It seems like that speed limits higher than 60 mph have a small benefit and can even create less network throughput.
