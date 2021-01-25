@@ -19,7 +19,9 @@ I then used scipy minimize with BFGS's to optimize the network throughput by cha
 
 ![Screenshot](imgs/optimization.png)
 
-To test out the effect of different speed limits on network throughput (e.g. will there be more traffic jams?) I created a simple 2-lane highway with one offramp and one construction zone (smaller speed limit). I then changed the maximum allowable speed on the highway that was not part of the construction zone and measured the cars that arrived at their destination. The smallest speed limit is 30 mph, which is the average speed of normal cars in the network. I followed the description https://sumo.dlr.de/docs/Tutorials/Autobahn.html to create all cars and routes. I changed sigma to 0.5 to create more traffic jams (closer to 'real drivers').
+To test out the effect of different speed limits on network throughput (e.g. will there be more traffic jams?) I created a simple 2-lane highway with one offramp and one construction zone (smaller speed limit). I then changed the maximum allowable speed on the highway that was not part of the construction zone and measured the cars that arrived at their destination. The smallest speed limit is 30 mph, which is the average speed of normal cars in the network. I followed the description https://sumo.dlr.de/docs/Tutorials/Autobahn.html to create all cars and routes. I changed sigma to 0.5 to create more traffic jams (closer to 'real drivers'). Here is the highway with offramp I used:  
+
+![Screenshot](imgs/netedit_highway.png)  
 
 SUMO makes it easy to scale the traffic. Here are the results of different speed limits for different scales of traffic:  
 
